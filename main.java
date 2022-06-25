@@ -1,3 +1,4 @@
+// "Строковый калькулятор" разработал Цымбалов Сергей 
 import java.util.Scanner;
 import java.io.*;
 public class Main
@@ -89,6 +90,6 @@ public class Main
         }
     }
     private static String getAnswerString(String value){
-        return "\"" + ((value.length() <= 40) ? value : (value.substring(0,40) + "...")) + "\""; // заключаем ответ в кавычки + ... если нужно
+        return "\"" + ((value.length() <= 40) ? value : (value.substring(0,40) + "...")) + "\""; // заключаем ответ в кавычки 
     }
 }
